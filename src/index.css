@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.core{
+  text-align: center;
+ width:100%;
+  padding: 12px 20px;
+  display: inline-block;
+  margin: 8px 0;
+}
+
+.core .but .hover{
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.core .but:hover .hover{
+  visibility: visible;
+}
+
+#red{
+  background-color: red;
+}
+
+#blue{
+  background-color: blue;
+}
+
+#green{
+  background-color: green;
+}
+
+
